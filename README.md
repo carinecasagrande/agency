@@ -7,7 +7,6 @@ Projeto desenvolvido no curso [SASS e SCSS do básico ao avançado + Projetos](h
 
 ### Tecnologias
 - HTML5
-- CSS3
 - SASS
 
 ### Autor
