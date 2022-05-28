@@ -4,16 +4,14 @@
 @include reset
 
 #main-banner
-	// background: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, 0.6)), url('../img/office.jpg')
-	// height: 85vh
-	// background-size: cover
-	// background-position: center
-
-	// @include mobile
-	// 	height: 100vh
-
 	nav
 		@include mobile
+			position: absolute
+			left: 0
+			top: 60px
+			background: black
+			padding: 30px
+			right: 0
 			display: none
 
 	.nav-container
@@ -34,6 +32,11 @@
 			display: flex
 			align-items: center
 			height: 100%
+
+			@include mobile
+				display: flex
+				flex-direction: column
+				align-items: flex-start
 
 			li
 				margin: 5px 10px
@@ -66,8 +69,13 @@
 			padding: 2rem
 
 		h1
+			font-size: 3.3rem
 			margin-top: 1rem
+			text-align: center
 			@extend %title-text-shadow
+
+			@include mobile
+				font-size: 2rem
 
 .services-container
 	text-align: center

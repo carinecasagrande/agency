@@ -23,19 +23,19 @@
             <a href="#" class="brand">
                 <i class="fas fa-brain"></i> Agency
             </a>
-            <nav>
+            <nav id="nav">
                 <ul class="nav-container-navbar">
                     <li><a href="#">Home</a></li>
                     <li><a href="#">Serviços</a></li>
                     <li><a href="#">Contato</a></li>
-                    <li><a href="#" class="btn btn-primary">Entrar</a></li>
-                    <li><a href="#" class="btn">Registrar</a></li>
+                    <li class="btn btn-primary"><a href="#">Entrar</a></li>
+                    <li class="btn"><a href="#">Registrar</a></li>
                 </ul>
             </nav>
-            <i class="fas fa-bars"></i>
+            <i class="fas fa-bars" onclick="showMenu()"></i>
         </div>
         <div class="title-container">
-            <h1>Nós desenvolvemos poderosas experiências</h1>
+            <h1>Nós desenvolvemos<br />poderosas experiências</h1>
             <a href="#" class="btn btn-primary btn-rounded">Fazer Orçamento</a>
         </div>
     </header>
@@ -203,6 +203,17 @@
             </div>
         </div>
     </footer>
+
+    <script>
+        function showMenu() {
+            var nav = document.getElementById("nav");
+            if (nav.style.display === "none") {
+                nav.style.display = "block";
+            } else {
+                nav.style.display = "none";
+            }
+        }
+    </script>
 </body>
 
 </html>
