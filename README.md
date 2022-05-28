@@ -3,7 +3,7 @@
 Projeto desenvolvido no curso [SASS e SCSS do básico ao avançado + Projetos](https://www.udemy.com/course/sass-e-scss-do-basico-ao-avancado-projetos/) na plataforma da Udemy.  
 
 ### Links
-- [Resultado](https://carinecasagrande.github.io/agency-sass/)
+- [Resultado](https://carinecasagrande.github.io/agencySASS/)
 
 ### Tecnologias
 - HTML5
